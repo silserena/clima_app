@@ -1,2 +1,27 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather station</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="container__weather">
+                <h1 class="weather--city">Madrid</h1>
+                <h2 class="weather--deg">Weather</h2>
+                <p class="weather--time">21:00</p>
+            </div>
+            <div class="container--description">  
+                <img class="weather--icon" src="media/sol.png" alt="">
+                <h3 class="weather--description--text">cielo claro con vientos</h3>
+            </div>
+         </div>
+    </section>
+</body>
+</html>
